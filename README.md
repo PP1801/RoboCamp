@@ -23,6 +23,4 @@ U oba slučaja je korišten UBUNTU 20.04 6 (isprobano 20.06.2025.).
 Pratiti upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot_20_04.md
 
 U .bashrc dodati:
-'''export PATH=$PATH:$HOME/ardupilot/Tools/autotest
-export PATH=/usr/lib/ccache:$PATH
-'''
+<pre> ```export PATH=$PATH:$HOME/ardupilot/Tools/autotest export PATH=/usr/lib/ccache:$PATH ``` </pre>
