@@ -77,7 +77,8 @@ GAZEBO_MODEL_PATH=/home/putanec/ardupilot_gazebo/models:/home/putanec/catkin_ws/
 Pratiti upute sa službene stranice: https://pypi.org/project/pymavlink/
 
 ## INSTALACIJA: Mission Planner
-Pratiti upute s: https://ardupilot.org/planner/docs/mission-planner-installation.html, 
+Pratiti upute s: https://ardupilot.org/planner/docs/mission-planner-installation.html,
+
 odnosno: https://www.mono-project.com/download/stable/#download-lin.
 
 Nakon unzippanja MissionPlanner-Latest, maknuti **-Latest** iz imena (rename) i prebaciti u Home direktorij.
@@ -89,13 +90,16 @@ Iz foldera za_MP prebaciti **logo.png**, **logo2.png**, **logo.txt** i **BurntOr
 **RC_marker_viz_1.cs** treba prebaciti u Home/MissionPlanner/plugins.
 
 Mission Planner će automatski napraviti build na markeru, jedino će prvi put to malo duže potrajati.
+
 Nakon što se jednom sve pokrenulo, u DATA izborniku se s Ctrl+P otvara prozor s popisom aktivnih Plugin-a.
+
 Svi koji se ne koriste mogu se ugasiti kako bi se inače Mission Planner brže pokretao.
 
 Custom tema za izgled Mission Planner-a se može naći u izborniku CONFIG, traka Planner, pod **Theme**.
 
 ## Za ArduPilot simulator
 Datoteku **locations.txt** s custom početnim koordinatama simulacije, potrebno je preseliti u **.config/ardupilot/** folder.
+
 Moguće je da **/ardupilot** ne postoji, pa ga treba napraviti.
 
 Stablo s **.config/** se može vidjeti preko VS Code-a, pokretanjem <pre> . code </pre> u čistom terminalu.
