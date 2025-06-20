@@ -40,3 +40,23 @@ te osvježiti s
 
 Preporuka je pokrenuti sim_vehicle **BEZ** argumenta **-v**, kako bi se izbjegao ponovni build cijelog paketa.
 
+## INSTALACIJA: ROS Noetic i Catkin workspace
+Instalacija je trajala ~ 20 min (VMware).
+
+Pratiti upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros_20_04.md
+
+Za odabir ROS istalacije najbolje je uzeti **Desktop-Full Install**, iako se može odabrati i običan **Desktop Install**.
+U slučaju obične instalacije potrebno je ručno instalirati dependency pakete:
+<pre>sudo apt-get update
+sudo apt-get install ros-noetic-geographic-msgs
+sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras
+sudo geographiclib-get-geoids egm96-5
+sudo apt-get install ros-noetic-tf2-eigen
+sudo apt-get install ros-noetic-control-toolbox
+rosdep install --from-paths src --ignore-src -r -y </pre>
+
+sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
+cd ~/catkin_ws
+catkin build
+source devel/setup.bash
+
