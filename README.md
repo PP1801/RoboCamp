@@ -136,10 +136,14 @@ Potrebno je instalirati:
 I promjeniti svojstva skripti, tako da ih možemo pokrenuti iz terminala:
 <pre> chmod +x startsocat.sh startsitl.sh</pre>
 
-Kada se uštekaju SiK telemetry radio prijemnici, te se vide kao npr. portovi **/ttyUSB0** i **/ttyUSB1**:
+Kada se priključe SiK telemetry radio prijemnici, te se vide kao npr. portovi **/ttyUSB0** i **/ttyUSB1**:
 <pre>ls /dev/tty*</pre>
 Treba im omogućiti pristup (čitanje/pisanje):
 <pre>sudo usermod -a -G dialout $USER
 sudo chmod 666 /dev/ttyUSB0
 sudo chmod 666 /dev/ttyUSB1</pre>
+
+# POKRETANJE SIMULACIJE:
+
+# POKRETANJE STVARNOG SUSTAVA:
 
