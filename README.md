@@ -77,6 +77,14 @@ GAZEBO_MODEL_PATH=/home/putanec/ardupilot_gazebo/models:/home/putanec/catkin_ws/
 Pratiti upute sa službene stranice: https://pypi.org/project/pymavlink/
 
 ## INSTALACIJA: Mission Planner
-Pratiti upute s: https://ardupilot.org/planner/docs/mission-planner-installation.html, odnosno: https://www.mono-project.com/download/stable/#download-lin.
+Pratiti upute s: https://ardupilot.org/planner/docs/mission-planner-installation.html, 
+odnosno: https://www.mono-project.com/download/stable/#download-lin.
+
 Nakon unzippanja MissionPlanner-Latest, maknuti **-Latest** iz imena (rename) i prebaciti u Home direktorij.
+
+# POSLJEDNJI DETALJI:
+Iz foldera za_MP prebaciti **logo.png**, **logo2.png**, **logo.txt** i **BurntOrange.mpsystheme** u Home/MissionPlanner/.
+
+**RC_marker_viz_1.cs** treba prebaciti u Home/MissionPlanner/plugins.
+
 
