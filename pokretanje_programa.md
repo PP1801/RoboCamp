@@ -1,10 +1,14 @@
 # POKRETANJE SIMULACIJE:
 
-<b></b>&nbsp;&nbsp;Rezultat najbolje sinkronizacije
+<b></b>&nbsp;&nbsp;
 <br>
-<p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000_c.jpg" width="520px"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/RoboCamp/main/screen_start_sim_crop.png" width="520px"></p>
 <br>
 
 # POKRETANJE STVARNOG SUSTAVA:
 
+<b></b>&nbsp;&nbsp;
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/RoboCamp/main/screen_start_real_crop.png" width="520px"></p>
+<br>
 
