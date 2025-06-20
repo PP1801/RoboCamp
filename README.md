@@ -118,8 +118,12 @@ Stablo s **.config/** se može vidjeti preko VS Code-a, pokretanjem <pre> . code
 
 ### Osjetljivi dio!
 Potrebno je pronaći skriptu **sim_vehicle.py** u folderu /ardupilot/Tools/autotest/ te ju otvoriti.
+
 Preko Ctrl+F upisati **wsl2_host_ip_str** (trebali bi biti negdje između 800. i 900. linije!).
-Ovdje u for petlji treba pronaći dio **ports = [nešto]**
+
+Ovdje u for petlji treba pronaći dio **ports = [nešto]** (npr. linija 885).
+
+Ukoliko piše **ports = [14550 + 10 * i]** treba promjeniti u **ports = [14550 + 10 * i, 14551 + 10 * i]**
 
 
 ## Za skripte i hardware
