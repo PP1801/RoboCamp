@@ -115,14 +115,14 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-
 source /home/putanec/ardupilot/Tools/completion/completion.bash
 export PATH=$PATH:$HOME/ardupilot/Tools/autotest
 export PATH=/usr/lib/ccache:$PATH
 
 source /usr/share/gazebo/setup.sh
 export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
+
 source /opt/ros/noetic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
