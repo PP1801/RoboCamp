@@ -33,7 +33,8 @@ Instalacija je trajala ~ 15 min (VMware).
 
 Pratitit upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_gazebo_arduplugin.md
 
-Prije zadnjeg koraka dodati u .bashrc dodati:
+Prije zadnjeg koraka (**Run Simulator**) u .bashrc dodati:
 <pre> export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH </pre>
+<pre> ```bash source ~/.bashrc ``` </pre>
+Te pokrenuti sim_vehicle **BEZ** <pre>-v</pre> argumenta, da se izbjegne ponovni build cijelog paketa.
 
-(**Run Simulator**) 
