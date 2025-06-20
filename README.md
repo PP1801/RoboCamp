@@ -125,7 +125,7 @@ Ovdje u for petlji treba pronaći dio **ports = [nešto]** (npr. linija 885).
 
 Ukoliko piše <pre>**ports = [14550 + 10 * i]**</pre> treba promjeniti u <pre>**ports = [14550 + 10 * i, 14551 + 10 * i]**</pre> ili npr. <pre>ports = [p + 10 * i for p in [14550, 14551]]</pre>
 
-Ovaj dio će sada preko MavProxy-ja otvarati 2 MAVLink porta, kako bi tijekom simulacije imali poveznicu i s Jetson-om (14551) i Mission Planner-om (14550).
+Spremiti i zatvoriti sim_vehicle.py. Ovaj dio će sada preko MavProxy-ja otvarati 2 MAVLink porta, kako bi tijekom simulacije imali poveznicu i s Jetson-om (14551) i Mission Planner-om (14550).
 
 
 ## Za skripte i hardware
