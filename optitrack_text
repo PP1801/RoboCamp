@@ -1,0 +1,11 @@
+
+
+module load optitrack
+
+optitrack set obj_id 1
+
+optitrack set server 192.168.0.100
+
+optitrack set client 192.168.0.108
+
+optitrack start
