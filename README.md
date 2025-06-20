@@ -68,3 +68,15 @@ source ~/catkin_ws/devel/setup.bash
 GAZEBO_MODEL_PATH=/home/putanec/ardupilot_gazebo/models:/home/putanec/catkin_ws/src/iq_sim/models</pre>
 
 **Svakako usporediti .bashrc na kraju svih instalacija s copy_.bashrc.txt koji je ovjde naveden!**
+
+
+
+# INSTALACIJA PROGRAMA:
+
+## INSTALACIJA: Pymavlink
+Pratiti upute sa službene stranice: https://pypi.org/project/pymavlink/
+
+## INSTALACIJA: Mission Planner
+Pratiti upute s: https://ardupilot.org/planner/docs/mission-planner-installation.html, odnosno: https://www.mono-project.com/download/stable/#download-lin.
+Nakon unzippanja MissionPlanner-Latest, maknuti **-Latest** iz imena (rename) i prebaciti u Home direktorij.
+
