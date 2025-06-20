@@ -11,7 +11,13 @@ Programi RoboCamp sustava:
 2.  startsitl.sh i startsocat.sh su također potrebni za pokretanje
 
 4.  RC_marker_viz_1.cs  -  Plugin za markere u Mission Planner-u
-5.  esp8266_gps_v0 je folder s konačnom verzijom Arduino programa prototipa narukvice
+5.  esp8266_gps_v0      -  Folder s konačnom verzijom Arduino programa prototipa narukvice
 
 
 # INSTALACIJA OKRUŽENJA:
+
+Originalna instalacija okružja je na ASUS (CRTA LAB1) računalu, a preko navedenih uputa je uspješno instalirano i isprobano okružje preko WMWare-a na stolnom računalu.
+U oba slučaja je korišten UBUNTU 20.04 6 (isprobano 20.06.2025.).
+
+## INSTALACIJA ArduPilot SITL i MAVProxy
+Pratiti upute na https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot_20_04.md
