@@ -19,7 +19,7 @@ Programi RoboCamp sustava:
 Originalna instalacija okružja je na ASUS (CRTA LAB1) računalu, a preko navedenih uputa je uspješno instalirano i isprobano okružje preko VMware-a na stolnom računalu.
 U oba slučaja je korišten UBUNTU 20.04 6 (isprobano 20.06.2025.).
 
-## INSTALACIJA ArduPilot SITL i MAVProxy
+## INSTALACIJA: ArduPilot SITL i MAVProxy
 Instalacija je trajala 15 - 30 min (VMware).
 
 Pratiti upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot_20_04.md
@@ -27,3 +27,13 @@ Pratiti upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/
 U .bashrc dodati:
 <pre> export PATH=$PATH:$HOME/ardupilot/Tools/autotest 
  export PATH=/usr/lib/ccache:$PATH </pre>
+
+## INSTALACIJA: Gazebo i ArduPilot plugin
+Instalacija je trajala ~ 15 min (VMware).
+
+Pratitit upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_gazebo_arduplugin.md
+
+Prije zadnjeg koraka dodati u .bashrc dodati:
+<pre> export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH </pre>
+
+(**Run Simulator**) 
