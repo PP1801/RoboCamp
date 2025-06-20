@@ -116,6 +116,12 @@ Moguće je da **/ardupilot** ne postoji, pa ga treba napraviti.
 
 Stablo s **.config/** se može vidjeti preko VS Code-a, pokretanjem <pre> . code </pre> u čistom terminalu.
 
+### Osjetljivi dio!
+Potrebno je pronaći skriptu **sim_vehicle.py** u folderu /ardupilot/Tools/autotest/ te ju otvoriti.
+Preko Ctrl+F upisati **wsl2_host_ip_str** (trebali bi biti negdje između 800. i 900. linije!).
+Ovdje u for petlji treba pronaći dio **ports = [nešto]**
+
+
 ## Za skripte i hardware
 Potrebno je instalirati:
 <pre> sudo apt install net-tools
