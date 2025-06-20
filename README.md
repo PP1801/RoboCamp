@@ -123,7 +123,7 @@ Preko Ctrl+F upisati **wsl2_host_ip_str** (trebali bi biti negdje između 800. i
 
 Ovdje u for petlji treba pronaći dio **ports = [nešto]** (npr. linija 885).
 
-Ukoliko piše **ports = [14550 + 10 * i]** treba promjeniti u **ports = [14550 + 10 * i, 14551 + 10 * i]**
+Ukoliko piše <pre>**ports = [14550 + 10 * i]**</pre> treba promjeniti u <pre>**ports = [14550 + 10 * i, 14551 + 10 * i]**</pre> ili npr. <pre>ports = [p + 10 * i for p in [14550, 14551]]</pre>
 
 
 ## Za skripte i hardware
