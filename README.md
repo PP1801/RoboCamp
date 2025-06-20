@@ -24,4 +24,4 @@ Pratiti upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/
 
 U .bashrc dodati:
 <pre> export PATH=$PATH:$HOME/ardupilot/Tools/autotest 
-    export PATH=/usr/lib/ccache:$PATH </pre>
+export PATH=/usr/lib/ccache:$PATH </pre>
