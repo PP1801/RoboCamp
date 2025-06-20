@@ -58,7 +58,13 @@ rosdep install --from-paths src --ignore-src -r -y </pre>
 
 Te na kraju (**5. Build instructions**)
 
-cd ~/catkin_ws
+<pre>cd ~/catkin_ws
 catkin build
-source devel/setup.bash
+source devel/setup.bash</pre>
+
+Ukoliko se iz nekog razloga nije samo exportalo, ručno upisati u .bashrc:
+<pre>source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+GAZEBO_MODEL_PATH=/home/putanec/ardupilot_gazebo/models:/home/putanec/catkin_ws/src/iq_sim/models</pre>
+
 
