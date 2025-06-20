@@ -142,8 +142,3 @@ Treba im omogućiti pristup (čitanje/pisanje):
 <pre>sudo usermod -a -G dialout $USER
 sudo chmod 666 /dev/ttyUSB0
 sudo chmod 666 /dev/ttyUSB1</pre>
-
-# POKRETANJE SIMULACIJE:
-
-# POKRETANJE STVARNOG SUSTAVA:
-
