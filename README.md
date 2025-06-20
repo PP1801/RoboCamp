@@ -16,10 +16,11 @@ Programi RoboCamp sustava:
 
 # INSTALACIJA OKRUŽENJA:
 
-Originalna instalacija okružja je na ASUS (CRTA LAB1) računalu, a preko navedenih uputa je uspješno instalirano i isprobano okružje preko WMWare-a na stolnom računalu.
+Originalna instalacija okružja je na ASUS (CRTA LAB1) računalu, a preko navedenih uputa je uspješno instalirano i isprobano okružje preko VMware-a na stolnom računalu.
 U oba slučaja je korišten UBUNTU 20.04 6 (isprobano 20.06.2025.).
 
 ## INSTALACIJA ArduPilot SITL i MAVProxy
+Instalacija je trajala 15 - 30 min (VMware)
 Pratiti upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot_20_04.md
 
 U .bashrc dodati:
