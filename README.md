@@ -35,6 +35,6 @@ Pratitit upute na: https://github.com/Intelligent-Quads/iq_tutorials/blob/master
 
 Prije zadnjeg koraka (**Run Simulator**) u .bashrc dodati:
 <pre> export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH </pre>
-<pre> ```bash source ~/.bashrc ``` </pre>
-Te pokrenuti sim_vehicle **BEZ** <pre>-v</pre> argumenta, da se izbjegne ponovni build cijelog paketa.
+te osvježiti s source ~/.bashrc
+Preporuka je pokrenuti sim_vehicle **BEZ** argumenta **-v**, kako bi se izbjegao ponovni build cijelog paketa.
 
