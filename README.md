@@ -67,4 +67,4 @@ Ukoliko se iz nekog razloga nije samo exportalo, ručno upisati u .bashrc:
 source ~/catkin_ws/devel/setup.bash
 GAZEBO_MODEL_PATH=/home/putanec/ardupilot_gazebo/models:/home/putanec/catkin_ws/src/iq_sim/models</pre>
 
-
+**Svakako usporediti .bashrc na kraju svih instlacaija s copy_.bashrc.txt koji je ovjde naveden!**
