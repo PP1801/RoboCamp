@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "C:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial\\build\\sketch\\esp32_hw_serial.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

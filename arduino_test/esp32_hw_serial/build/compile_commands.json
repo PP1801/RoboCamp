@@ -1,0 +1,41 @@
+[
+ {
+  "directory": "c:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial",
+  "arguments": [
+   "C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2302/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-bd2b9390ef\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_DEV",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_DEV\"",
+   "-DARDUINO_VARIANT=\"esp32\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32:JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-bd2b9390ef\\esp32/flags/defines",
+   "-IC:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial",
+   "-iprefix",
+   "C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-bd2b9390ef\\esp32/include/",
+   "@C:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-bd2b9390ef\\esp32/flags/includes",
+   "-IC:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.1-bd2b9390ef\\esp32/qio_qspi/include",
+   "-IC:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\cores\\esp32",
+   "-IC:\\Users\\CRTA\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\variants\\esp32",
+   "@C:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial\\build/build_opt.h",
+   "@C:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial\\build/file_opts",
+   "C:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial\\build\\sketch\\esp32_hw_serial.ino.cpp",
+   "-o",
+   "C:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial\\build\\sketch\\esp32_hw_serial.ino.cpp.o"
+  ],
+  "file": "C:\\Users\\CRTA\\Documents\\Putanec_documents\\esp32_stuff\\esp32_hw_serial\\build\\sketch\\esp32_hw_serial.ino.cpp"
+ }
+]
