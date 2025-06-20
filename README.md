@@ -87,4 +87,8 @@ Iz foldera za_MP prebaciti **logo.png**, **logo2.png**, **logo.txt** i **BurntOr
 
 **RC_marker_viz_1.cs** treba prebaciti u Home/MissionPlanner/plugins.
 
+Mission Planner će automatski napraviti build na markeru, jedino će prvi put to malo duže potrajati.
+
+Custom tema za izgled Mission Planner-a se može naći u izborniku CONFIG, traka Planner, pod **Theme**.
+
 
