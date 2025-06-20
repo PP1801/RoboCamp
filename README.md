@@ -97,6 +97,19 @@ Svi koji se ne koriste mogu se ugasiti kako bi se inače Mission Planner brže p
 
 Custom tema za izgled Mission Planner-a se može naći u izborniku CONFIG, traka Planner, pod **Theme**.
 
+
+Ukoliko Mission Planner zbog mono platforme ne prikazuje dobro fontove i grafike, potrebno je dodati **fonts.conf** u direktorij **.config/fontconfig/** (moguće je da ne postoji).
+
+Također, potrebno je instalirati:
+<pre>sudo apt install fonts-freefont-ttf fonts-liberation fonts-dejavu
+sudo apt install libgdiplus libc6 libx11-dev
+sudo fc-cache -f -v</pre>
+
+Te izvesti:
+<pre>sudo apt update
+sudo apt upgrade mono-complete</pre>
+
+
 ## Za ArduPilot simulator
 Datoteku **locations.txt** s custom početnim koordinatama simulacije, potrebno je preseliti u **.config/ardupilot/** folder.
 
