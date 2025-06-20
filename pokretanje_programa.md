@@ -12,3 +12,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/RoboCamp/main/screen_start_real_crop.png" width="1040px"></p>
 <br>
 
+
+Svi detalji su navedeni u **RoboCamp_UserManual.pdf**
