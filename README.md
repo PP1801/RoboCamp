@@ -53,9 +53,11 @@ sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras
 sudo geographiclib-get-geoids egm96-5
 sudo apt-get install ros-noetic-tf2-eigen
 sudo apt-get install ros-noetic-control-toolbox
+sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
 rosdep install --from-paths src --ignore-src -r -y </pre>
 
-sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
+Te na kraju (**5. Build instructions**)
+
 cd ~/catkin_ws
 catkin build
 source devel/setup.bash
