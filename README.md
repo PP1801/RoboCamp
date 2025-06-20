@@ -99,7 +99,6 @@ Custom tema za izgled Mission Planner-a se može naći u izborniku CONFIG, traka
 
 
 Ukoliko Mission Planner zbog mono platforme ne prikazuje dobro fontove i grafike, potrebno je dodati **fonts.conf** u direktorij **.config/fontconfig/** (moguće je da ne postoji).
-
 Također, potrebno je instalirati:
 <pre>sudo apt install fonts-freefont-ttf fonts-liberation fonts-dejavu
 sudo apt install libgdiplus libc6 libx11-dev
@@ -118,5 +117,17 @@ Moguće je da **/ardupilot** ne postoji, pa ga treba napraviti.
 Stablo s **.config/** se može vidjeti preko VS Code-a, pokretanjem <pre> . code </pre> u čistom terminalu.
 
 ## Za skripte i hardware
+Potrebno je instalirati:
+<pre> sudo apt install net-tools
+ sudo apt install socat</pre>
 
+I promjeniti svojstva skripti, tako da ih možemo pokrenuti iz terminala:
+<pre> chmod +x startsocat.sh startsitl.sh</pre>
+
+Kada se uštekaju SiK telemetry radio prijemnici, te se vide kao npr. portovi **/ttyUSB0** i **/ttyUSB1**:
+<pre>ls /dev/tty*</pre>
+Treba im omogućiti pristup (čitanje/pisanje):
+<pre>sudo usermod -a -G dialout $USER
+sudo chmod 666 /dev/ttyUSB0
+sudo chmod 666 /dev/ttyUSB1</pre>
 
